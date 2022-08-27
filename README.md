@@ -1,6 +1,6 @@
 # Asset Backed Note
 
-A asset backed securitization note allows the holder to purchase co-ownership interests in a revolving pool of credit card receivables. To fund the acquisition of the interests in the revolving pool, the trust issued Asset-Backed Notes, in a number of different series. A share of future collections of credit charge receivables, to which the trust is entitled, is used to pay the interest and the principal of the notes.
+A asset backed securitization note allows the holder to purchase co-ownership interests in a revolving pool of credit card receivables. To fund the acquisition of the interests in the revolving pool, the trust issued Asset-Backed Notes, in a number of different series. A share of future collections of credit charge receivables, to which the trust is entitled, is used to pay the interest and the principal of the notes. Accrued interest can be computed like https://finpricing.com/lib/FiBondAccrual.html)
 
 At this time the deal has entered its liquidation period, during which all allocable collections remaining after the payment of interest are used to repay the principal. For this reason, only the portion of the model relevant to the liquidation period
 
@@ -19,8 +19,6 @@ The aggregate interest applies the weighted coupon rate to the aggregate princip
 The remaining pro-rata senior principal AF and the remaining senior principal AA are reduced each month by the corresponding principal payments. The formula defines the collections allocated. The collections consist of the principal portion and the interest portion. 
 
 References:
-
-https://finpricing.com/lib/EqRainbow.html
 
 https://osf.io/eg6mv/download
 
